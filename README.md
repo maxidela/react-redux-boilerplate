@@ -26,11 +26,9 @@ The application structure presented in this boilerplate is **fractal**, where fu
 │   ├── main.js              # Application bootstrap and rendering
 │   ├── appcontainer         # Application container (Include Provider and Router)
 │   ├── globals              # Application globals
-│   │   ├── actions          # Application global action creators
 │   │   ├── components       # Application global components
 │   │   ├── containers       # Application global containers
-│   │   ├── constants        # Application global constants
-│   │   └── reducers         # Application global reducers
+│   │   └── modules          # Collections of global reducers/constants/actions
 │   ├── layouts              # Components that dictate major page structure
 │   ├── static               # Static assets (not imported anywhere in source code)
 │   ├── styles               # Application-wide styles (generally settings)
@@ -45,9 +43,7 @@ The application structure presented in this boilerplate is **fractal**, where fu
 │           ├── assets       # Assets required to render components
 │           ├── components   # Presentational React Components
 │           ├── container    # Connect components to actions and store
-│           ├── actions      # Route action creators
-│           ├── constants    # Route constants
-│           ├── reducers     # Route reducers
+│           ├── modules      # Collections of reducers/constants/actions
 │           └── routes **    # Fractal sub-routes (** optional)
 └── tests                    # Unit tests
 ```
